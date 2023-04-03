@@ -6,6 +6,8 @@
  * as there will be an I2C address conflict
  * modified and adapted from M5Stack original code
  * Date: 3-4-23
+ * John
+ * www.reflectingMe.uk is my www site.
  */
 #include <M5Stack.h>
 #include "M5_ENV.h"
