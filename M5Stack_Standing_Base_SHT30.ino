@@ -23,15 +23,15 @@ void setup()
   M5.lcd.setTextSize(3); // Set the text size to 3 for initial text
   Wire.begin();          // Wire init, adding the I2C bus
 
-  M5.lcd.setTextColor(YELLOW);                                           // Initial text set to Yellow
-  M5.Lcd.setTextDatum(CC_DATUM);                                         // Set text alignment to center
+  M5.lcd.setTextColor(YELLOW);                                            // Initial text set to Yellow
+  M5.Lcd.setTextDatum(CC_DATUM);                                          // Set text alignment to center
   M5.Lcd.drawString("M5Stack", M5.Lcd.width() / 2, 10);                   // Draw centered text
-  M5.lcd.setTextSize(2);                                                 // Swet the text size to 2
-  M5.lcd.setTextColor(WHITE);                                            // white text
+  M5.lcd.setTextSize(2);                                                  // Swet the text size to 2
+  M5.lcd.setTextColor(WHITE);                                             // white text
   M5.Lcd.drawString("M5Stack BCT Standing Base", M5.Lcd.width() / 2, 40); // Draw centered text
-  M5.lcd.setTextColor(GREENYELLOW);                                      // green/yellow text
-  M5.Lcd.drawString("with internal", M5.Lcd.width() / 2, 60);            // Draw centered text
-  M5.Lcd.drawString("SHT30 Sensor", M5.Lcd.width() / 2, 80);             // Draw centered text
+  M5.lcd.setTextColor(GREENYELLOW);                                       // green/yellow text
+  M5.Lcd.drawString("with internal", M5.Lcd.width() / 2, 60);             // Draw centered text
+  M5.Lcd.drawString("SHT30 Sensor", M5.Lcd.width() / 2, 80);              // Draw centered text
 }
 
 void loop()
