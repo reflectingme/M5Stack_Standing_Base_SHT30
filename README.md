@@ -17,6 +17,8 @@ Make sure you have the correct and up-to-date libraries installed for the M5Unit
 
 https://github.com/Tinyu-Zhao/M5Unit-ENV
 
+Here is the M5Stack product page: https://docs.m5stack.com/en/base/btc_base
+
 If you have been experiencing issues getting the M5Stack Standing Base to show any temperature or humidity data, you may need to remove the original M5Unit-ENV from your /libraries flder then pull and replace the whole library with the one from this URL.
 
 John.
