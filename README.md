@@ -4,7 +4,7 @@ NB: Please note I am not a professional coder, you are free to use this code as 
 
 This is an alternate script modified from the original M5Stack code for the SHT30 temperature and pressure sensor contained in the BCT Standing Base unit for the M5Stack module. 
 
- ## What the resulting code looks like
+ ## What running this code should look like on your M5Stack screen
 
  ![M5Stack screen output](/screenshots/M5Stack_Standing_Base.jpg)
 
