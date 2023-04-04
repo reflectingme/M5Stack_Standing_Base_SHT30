@@ -29,7 +29,7 @@ void setup()
   M5.lcd.setTextColor(YELLOW);                                            // Initial text set to Yellow
   M5.Lcd.setTextDatum(CC_DATUM);                                          // Set text alignment to center
   M5.Lcd.drawString("M5Stack", M5.Lcd.width() / 2, 10);                   // Draw centered text
-  M5.lcd.setTextSize(2);                                                  // Swet the text size to 2
+  M5.lcd.setTextSize(2);                                                  // Set the text size to 2
   M5.lcd.setTextColor(WHITE);                                             // white text
   M5.Lcd.drawString("M5Stack BCT Standing Base", M5.Lcd.width() / 2, 40); // Draw centered text
   M5.lcd.setTextColor(GREENYELLOW);                                       // green/yellow text
