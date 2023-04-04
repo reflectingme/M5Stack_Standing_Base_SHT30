@@ -5,7 +5,8 @@
  * and you are not able to connect the ENVIII Unit to the M5Stack device
  * as there will be an I2C address conflict
  * modified and adapted from M5Stack original code
- * Date: 3-4-23
+ * Date:      4 April 23
+ * Version:   1.01
  * John
  * www.reflectingMe.uk is my www site.
  */
