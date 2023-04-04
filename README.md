@@ -8,18 +8,30 @@ If you do experience any problems with the codw, or if you have suggestions as t
 
  ## What running this code should look like on your M5Stack screen
 
+ This is what you should see on your M5Stack screen when running the code in this repository code.
+
  ![M5Stack screen output](/screenshots/M5Stack_Standing_Base.jpg)
+
+ ... and this is what you should see on your scren when running the original factory code.
+
+ ![M5Stack original screen output](/screenshots/M5Stack_Standing_Base_original.jpg)
 
  I have not added anything complex, I simply use some of the graphics methods already included in the M5Stack.h library.
 
 
-Make sure you have the correct and up-to-date libraries installed for the M5Unit-Env.  The files are available from M5Stack here:
+Make sure you have the correct and up-to-date libraries installed for the M5Unit-Env.  The correct files for the ENVIII devices including the SHT30 are available from M5Stack here:
 
 https://github.com/Tinyu-Zhao/M5Unit-ENV
 
-Here is the M5Stack product page: https://docs.m5stack.com/en/base/btc_base
+M5Stack have moved original code for the BTC Standing Base unit to a pubclic archive, which can be found here: 
 
-If you have been experiencing issues getting the M5Stack Standing Base to show any temperature or humidity data, you may need to remove the original M5Unit-ENV from your /libraries flder then pull and replace the whole library with the one from this URL.
+https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino/BTC2.1
+
+M5Stack product page:
+
+https://docs.m5stack.com/en/base/btc_base
+
+NOTE: If you have been experiencing issues getting the M5Stack Standing Base to show any temperature or humidity data, you may need to remove the original M5Unit-ENV from your /libraries flder then pull and replace the whole library with the one from this URL.
 
 John.
 
